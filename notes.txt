@@ -1,0 +1,142 @@
+set IDF_PATH=C:\Users\lalis\esp\esp-idf
+C:\Users\lalis\.espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:\Users\lalis\esp\esp-idf\tools\idf_monitor.py -p COM3 -b 115200  --target esp32 c:\Users\lalis\OneDrive\Documents\Cours\IoT\Projet_Industriel\working_directory\continuous_read\build\continuous_read.elf > C:\Users\lalis\OneDrive\Documents\Cours\IoT\Projet_Industriel\working_directory\continuous_read\values.txt
+
+REGEX: \(\d\d\d\d\d\)  
+
+idf.py -p COM3 monitor > monitor.txt 
+
+#############################################
+# ____                  _           _       #
+#| __ )  __ _ _   _  __| |_ __ __ _| |_ ___ #
+#|  _ \ / _` | | | |/ _` | '__/ _` | __/ _ \#
+#| |_) | (_| | |_| | (_| | | | (_| | ||  __/#
+#|____/ \__,_|\__,_|\__,_|_|  \__,_|\__\___|#
+#                                           #
+# _   ____   ___   ___   ___   ___   ___    #
+#/ | | ___| / _ \ / _ \ / _ \ / _ \ / _ \   #
+#| | |___ \| | | | | | | | | | | | | | | |  #
+#| |_ ___) | |_| | |_| | |_| | |_| | |_| |  #
+#|_(_)____/ \___/ \___(_)___/ \___/ \___/   #
+#############################################
+
+-----------------------------------------
+  ___                  _    ____   ____
+ / _ \ _ __   ___     / \  |  _ \ / ___|
+| | | | '_ \ / _ \   / _ \ | | | | |
+| |_| | | | |  __/  / ___ \| |_| | |___
+ \___/|_| |_|\___| /_/   \_\____/ \____|
+-----------------------------------------
+Number of values: 82176 
+
+Number of values in channel0 : 0
+Number of values in channel3 : 0
+Number of values in channel4 : 0
+Number of values in channel5 : 0
+Number of values in channel6 : 0
+Number of values in channel7 : 82176
+
+Error's ratio channel7 : 0.31
+
+Duration: 12.87425 s
+Frequency: 6382.973765462066 Hz
+
+ADC frequency channel0 : 0.0 Hz
+ADC frequency channel3 : 0.0 Hz
+ADC frequency channel4 : 0.0 Hz
+ADC frequency channel5 : 0.0 Hz
+ADC frequency channel6 : 0.0 Hz
+ADC frequency channel7 : 6382.973765462066 Hz
+
+--------------------------------------
+ _____      _ _      _    ____   ____
+|  ___|   _| | |    / \  |  _ \ / ___|
+| |_ | | | | | |   / _ \ | | | | |
+|  _|| |_| | | |  / ___ \| |_| | |___
+|_|   \__,_|_|_| /_/   \_\____/ \____|
+--------------------------------------
+
+Number of values: 53504 
+
+Number of values in channel0 : 8961
+Number of values in channel3 : 8911
+Number of values in channel4 : 8895
+Number of values in channel5 : 8888
+Number of values in channel6 : 8896
+Number of values in channel7 : 8953
+
+Error's ratio channel0 : 0.48
+Error's ratio channel3 : 0.0 (????)
+Error's ratio channel4 : 0.0
+Error's ratio channel5 : 0.0
+Error's ratio channel6 : 0.24
+Error's ratio channel7 : 0.42
+
+Duration: 8.3424 s
+Frequency: 6413.502109704642 Hz
+
+ADC frequency channel0 : 1074.1513233601843 Hz
+ADC frequency channel3 : 1068.1578442654393 Hz
+ADC frequency channel4 : 1066.2399309551208 Hz
+ADC frequency channel5 : 1065.4008438818566 Hz
+ADC frequency channel6 : 1066.3598005370159 Hz
+
+---------------------------------------------------------------
+Modification du print (ch val) instead (Channel: ch Value: vl)
+---------------------------------------------------------------
+Number of values: 212480
+
+Number of values in channel0 : 35507
+Number of values in channel3 : 35525
+Number of values in channel4 : 35386
+Number of values in channel5 : 35278
+Number of values in channel6 : 35347
+Number of values in channel7 : 35437
+
+Error's ratio channel0 : 0.77
+Error's ratio channel3 : 0.0
+Error's ratio channel4 : 0.0
+Error's ratio channel5 : 0.0
+Error's ratio channel6 : 0.18
+Error's ratio channel7 : 0.6
+
+Duration: 10.624 s
+Frequency: 20000.0 Hz
+
+ADC frequency channel0 : 3342.14984939759 Hz
+ADC frequency channel3 : 3343.8441265060237 Hz
+ADC frequency channel4 : 3330.7605421686744 Hz
+ADC frequency channel5 : 3320.594879518072 Hz
+ADC frequency channel6 : 3327.0896084337346 Hz
+ADC frequency channel7 : 3335.5609939759033 Hz
+
+
+----
+Modification 
+max buff size : 2048
+samplefreq: 1000000
+----
+Number of values: 117113
+
+Number of values in channel0 : 19922
+Number of values in channel3 : 19188
+Number of values in channel4 : 19446
+Number of values in channel5 : 19455
+Number of values in channel6 : 19191
+Number of values in channel7 : 19911
+
+Error's ratio channel0 : 0.36
+Error's ratio channel3 : 0.04
+Error's ratio channel4 : 0.0
+Error's ratio channel5 : 0.29
+Error's ratio channel6 : 0.16
+Error's ratio channel7 : 0.42
+
+Duration: 10.28895 s
+Frequency: 11382.405396080261 Hz
+
+ADC frequency channel0 : 1936.2519985032486 Hz
+ADC frequency channel3 : 1864.9133293484758 Hz
+ADC frequency channel4 : 1889.9887743647312 Hz
+ADC frequency channel5 : 1890.8634991908796 Hz
+ADC frequency channel6 : 1865.2049042905253 Hz
+ADC frequency channel7 : 1935.1828903824005 Hz

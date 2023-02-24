@@ -1,0 +1,9 @@
+values.txt
+monitor.txt
+sort_monitor.txt
+build/*
+.vscode/*
+README.md
+sdkconfig
+sdkconfig.old
+
